@@ -1,0 +1,30 @@
+.wrap {
+  max-width: var(--container);
+  margin: 0 auto;
+  padding: 0 22px;
+}
+
+.section { padding: var(--section-pad) 0; }
+.section-alt { background: linear-gradient(180deg, var(--bg-2), var(--bg)); }
+
+.section-head { margin-bottom: 44px; max-width: 680px; }
+.section-head p { color: var(--muted); }
+
+.section-eyebrow {
+  font-family: var(--font-mono);
+  font-size: 13px;
+  color: var(--accent);
+  letter-spacing: 2px;
+  margin-bottom: 12px;
+  text-transform: uppercase;
+}
+
+/* ===== Адаптив ===== */
+@media (max-width: 768px) {
+  .section { padding: 56px 0; }
+  .section-head { margin-bottom: 32px; }
+}
+@media (max-width: 480px) {
+  .section { padding: 44px 0; }
+  .wrap { padding: 0 18px; }
+}

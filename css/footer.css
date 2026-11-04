@@ -1,0 +1,13 @@
+.site-footer {
+  padding: 32px 0;
+  color: var(--muted);
+  font-size: 13.5px;
+}
+.footer-inner {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.footer-inner .mono { color: #666; }

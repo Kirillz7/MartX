@@ -1,0 +1,24 @@
+h1, h2, h3 {
+  font-family: var(--font-head);
+  font-weight: 800;
+  line-height: 1.15;
+  letter-spacing: -.01em;
+  margin: 0;
+}
+
+/* ⬇ Главный текст больше */
+h1 { font-size: clamp(2.2rem, 7vw, 5.8rem); }
+
+h2 { font-size: clamp(1.6rem, 3.6vw, 2.6rem); margin-bottom: 14px; }
+h3 { font-size: 1.1rem; font-weight: 700; margin-bottom: 8px; }
+
+p { margin: 0; }
+
+.mono { font-family: var(--font-mono); }
+
+.lead {
+  margin-top: 22px;
+  max-width: 640px;
+  font-size: clamp(1rem, 1.35vw, 1.15rem);
+  color: var(--muted);
+}

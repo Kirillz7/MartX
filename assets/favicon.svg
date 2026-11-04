@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <rect width="64" height="64" rx="12" fill="#1A1A1A"/>
+  <!-- Буква M -->
+  <path d="M14 46V22h5l5 10 5-10h5v24h-5V31l-5 9-5-9v15z" fill="#FF6B00"/>
+  <!-- Буква X -->
+  <path d="M38 22h6l4 8 4-8h6L50 34l8 12h-6l-4-7-4 7h-6l8-12z" fill="#FF6B00"/>
+</svg>
