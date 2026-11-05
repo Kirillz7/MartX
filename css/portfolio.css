@@ -1,7 +1,10 @@
+/* 2 крупные карточки по центру на десктопе */
 .grid-work {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: var(--gap);
+  max-width: 940px;
+  margin: 0 auto;
 }
 
 .work {
@@ -11,6 +14,7 @@
   border-radius: var(--radius);
   overflow: hidden;
   transition: border-color .25s var(--ease), transform .25s var(--ease);
+  background: #141414;
 }
 .work:hover {
   border-color: rgba(255, 107, 0, .5);
@@ -32,8 +36,8 @@
   left: 0;
   right: 0;
   bottom: 0;
-  padding: 20px;
-  background: linear-gradient(180deg, transparent, rgba(20, 20, 20, .92));
+  padding: 22px;
+  background: linear-gradient(180deg, transparent, rgba(20, 20, 20, .94));
   z-index: 1;
 }
 
@@ -58,12 +62,12 @@
 
 /* ===== Адаптив ===== */
 @media (max-width: 768px) {
-  .work-body { padding: 16px; }
+  .work-body { padding: 18px; }
 }
 
 @media (max-width: 480px) {
   .grid-work { gap: 12px; }
-  .work-body { padding: 14px; }
+  .work-body { padding: 16px; }
   .work h3 { font-size: 1rem; }
   .work p { font-size: 13px; }
 }
